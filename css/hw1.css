@@ -344,6 +344,8 @@ footer{
   .left img
   {
     display:inline;
+    width: 140px;
+    height: 100px;
   }
   
   #imageshide
@@ -381,6 +383,11 @@ footer{
  margin-top: 20%;
  
 } 
+   .social img
+{
+  height:30px;
+  width:40px;
+}
 }
 /* nav meadia query for mobile view   ----------------------------------------------------*/
 @media (max-width: 426px){
