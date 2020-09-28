@@ -229,7 +229,7 @@ footer{
   margin-top: 10%;
   bottom: 0;
   width: 100%;
-  background-color:rgba(8, 8, 8, 0.9);
+  background-color:rgba(8, 8, 8, 1);
   color: white;
   text-align: center;
   border-radius: 30%;
@@ -247,7 +247,7 @@ footer{
 }
 
 .social{
-  position: ;
+  
   bottom:0;
   
 
@@ -259,7 +259,7 @@ footer{
   width:3%;
   margin-left: 2%;
   border-radius: 150px;
-  background: rgba(255,255,255,.5) ;
+  background: rgba(182, 237, 247, 0.8) ;
   -webkit-transform: height,width,transform;
         -o-transform: height,width,transform;
         -moz-transform: height,width,transform;
@@ -277,13 +277,12 @@ footer{
     background: white;
 
 }
-.credit{color: #ffffff;
- 
- 
+.credit
+{
+ color: #ffffff;
  text-align: center;
  padding: 2px;
  border-radius: 50%;
-
 }
 
 
@@ -334,14 +333,19 @@ footer{
 {
   display: none;
 }
-/*-------------------------------------media queries-------------------------------------------------------*/
+
+/*-----------------------------------------------------------------*/
 @media (max-width: 880px)
 {
+  
   .dropbtn
   {
     display:inline;
   }
-  
+  #leftg
+  {
+   margin-top: 20%;
+  }
   .left img
   {
     display:inline;
@@ -355,7 +359,7 @@ footer{
   }
  
   .right
-  {font-size: 70%;
+  {font-size: 80%;
     margin-left: 10%;
     margin-top: 20%;
   }
@@ -365,23 +369,25 @@ footer{
     display:none;
   }
 
+  
+
   /*  Collab */
 #collab
 {
- margin-top: 10%;
+ margin-top: 20%;
  
 }
 
 /*  Guitar */
 #guitar
 {
- margin-top: 20%;
+ margin-top: 30%;
 }
 
 /*  Vlogs */
 #vlogs
 {
- margin-top: 20%;
+ margin-top: 30%;
  
 } 
 .social img
@@ -409,11 +415,11 @@ footer{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(245, 243, 243, 0.6);
-    min-width: 70px;
+    background-color: rgba(198, 250, 241, 0.9);
+    width: 78px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    border-radius: 10%;
+    border-radius: 30%;
   }
   
   .dropdown-content a {
@@ -473,15 +479,19 @@ footer{
 /*  Guitar */
 #guitar
 {
- margin-top: 20%;
+ margin-top: 30%;
 }
 
 /*  Vlogs */
 #vlogs
 {
- margin-top: 20%;
+ margin-top: 30%;
  
 } 
+footer
+{
+  margin-top: 30%;
+}
 .social img
 {
   height:30px;
@@ -507,11 +517,11 @@ footer{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(245, 243, 243, 0.6);
-    min-width: 70px;
+    background-color: rgba(198, 250, 241, 0.9);
+    width: 78px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    border-radius: 10%;
+    border-radius: 30%;
   }
   
   .dropdown-content a {
@@ -520,7 +530,6 @@ footer{
     text-decoration: none;
     display: block;
   }
-  
   .dropdown-content a:hover {background-color: rgba(0,0,0,0.2);}
   
   .dropdown:hover .dropdown-content {display: block;}
@@ -528,3 +537,4 @@ footer{
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 }
+
