@@ -41,7 +41,7 @@ h2 {
 
 .left >h2{
    color: #ffffff;
-  font-family: myFirstFont;
+  font-family:headfont;
   font-size: 200%;
   text-shadow: 2px 2px #008000;
 }
@@ -54,7 +54,7 @@ h1{
     padding-bottom:20px;
     font-size: 250%;
     color: #ffffff;
-    font-family: myFirstFont;
+    font-family:headfont;
     text-shadow: 2px 2px #008000;
 }
 h1:hover{
