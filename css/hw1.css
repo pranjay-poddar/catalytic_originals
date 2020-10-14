@@ -362,12 +362,12 @@ footer{
 }
 
 .topnav a:hover {
-  background-color: rgb(123, 248, 123);
+  background-color: #e5e9e5;
   color: black;
 }
 
 .topnav a.active {
-  background-color: white;
+  background-color: #e5e9e5;
   color: black;
 }
 
@@ -420,7 +420,7 @@ footer{
    
    ::placeholder
   {
-    color:rgb(240, 236, 236);
+    color:black;
   }
    
   .sub
@@ -429,7 +429,7 @@ footer{
     height: 15px;
     width:50px;
     margin-top: 5%;
-    color:rgb(240, 236, 236);
+    color:black;
   }
   header
   {
