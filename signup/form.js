@@ -76,7 +76,7 @@ return false;
             else
             {
                 alert('Thank You! Information Submitted Successfully.Press ok to view official page.')
-                    window.open('catalyticoriginals-master/index.html');
+                    window.open('https://pranjay-poddar.github.io/catalytic_originals/');
             }
             return true;
         }
