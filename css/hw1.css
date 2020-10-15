@@ -254,7 +254,7 @@ footer{
   margin-top: 10%;
   bottom: 0;
   width: 100%;
-  background-color:rgba(8, 8, 8, 1);
+  background-color:rgba(8, 8, 8, 0.7);
   color: white;
   text-align: center;
   border-radius: 30%;
