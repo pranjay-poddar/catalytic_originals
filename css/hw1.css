@@ -7,13 +7,35 @@
    src: url(comic1.ttf);
 }
 
+/*loading---------------*/
+.loader {
+  height:5%;
+  width: 5%;
+  display :inline-block;
+  float: left;
+  
+  -webkit-animation: spin 4s linear infinite; /* Safari */
+  animation: spin 4s linear infinite;
+}
 
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  50%{transform: rotate(0deg);}
+  100% { transform: rotate(360deg); }
+}
 
 body{
     margin: 5px;
     padding :5px 15px;
     background:black;
     background-image: url("./giphy.gif");
+    background-repeat: repeat;
 
 }
 
@@ -263,6 +285,9 @@ footer{
   margin-left: 2%;
   border-radius: 150px;
   background:rgb(254, 255, 255) ;
+
+
+
   -webkit-transform: height,width,transform;
         -o-transform: height,width,transform;
         -moz-transform: height,width,transform;
@@ -346,7 +371,7 @@ footer{
 
 .topnav {
   overflow: hidden;
-  background-color:rgb(116, 248, 134);
+  background-color:#89defa;
   border-radius: 15%;
   color :black;
 }
@@ -391,6 +416,8 @@ footer{
   }
 }
 
+
+
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
@@ -416,13 +443,12 @@ footer{
     height: 10px;
     width:50px;
     margin-top: 5%;
+    
   }
-   
-   ::placeholder
+  ::placeholder
   {
     color:black;
   }
-   
   .sub
   {
     font-size: 40%;
@@ -539,10 +565,23 @@ footer{
 
 }
 
+
 /*----------------for smalll screens---------------------------------------------------------------------------*/
 
 @media (max-width: 350px)
 {
+  #cato-logo .loader
+{
+  height:20%;
+  width: 20%;
+  
+  margin-right: 5%;
+}
+
+.social img{
+-webkit-animation: spin 4s linear infinite; /* Safari */
+animation: spin 4s linear infinite;
+}
   .dropbtn
   {
     display:inline;
