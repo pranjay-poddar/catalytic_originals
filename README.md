@@ -11,7 +11,13 @@ https://pranjay-poddar.github.io/catalytic_originals/
   </p>
   <br>
   <p align="center">
+  <h4>Light Mode:</h4>
   <img src="./images/website-screenshot.PNG" width="600" title="hover text">
+  </p>
+  <br>
+  <p align="center">
+  <h4>Dark Mode:</h4>
+  <img src="./images/website-screenshot2.png" width="600" title="hover text">
   </p>
   <br>
 
