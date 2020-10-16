@@ -20,4 +20,7 @@ https://pranjay-poddar.github.io/catalytic_originals/
   <img src="./images/website-screenshot2.png" width="600" title="hover text">
   </p>
   <br>
+  <h4 align="center">
+   ©Pranjay2020
+  </h4>
 
