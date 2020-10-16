@@ -22,21 +22,14 @@
 		<a href="#guitar">Mashups</a>
 		<a href="#vlogs">Vlogs</a>
 		<a href="./signup/index.html">Sign Up</a>
+		<a onclick="darkmode()" id="darknav">Dark Mode</a>
+		 
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		  <i class="fa fa-bars"></i>
+		 <i class="fa fa-bars"></i>
 		</a>
 	  </div>
 	  <button onclick="darkmode()" class="sub" style="float:left;" id="dark">Dark Mode</button>
-	  <script>
-		function darkmode() {
-		   var element = document.body;
-		   element.classList.toggle("dark-mode");
-		   if(document.getElementById("dark").innerHTML=="Dark Mode")
-		   document.getElementById("dark").innerHTML="Light Mode";
-		   else
-		   document.getElementById("dark").innerHTML="Dark Mode";
-		}
-		</script>
+	  
 	  <form  onsubmit ="greet();return false;">
 		<input  type="submit" class="sub">
 		<input type="text" id="name" class= "subtext" placeholder="Type Your Name">
