@@ -196,7 +196,7 @@ nav a:hover {
 #click
 {
   border-radius: 10%;
-  background-color:rgba(255,255,255,.5);
+  background-color:rgba(248, 242, 242, 0.7);
   
   
 }
@@ -620,6 +620,7 @@ footer{
 header
 {
   background-image: url("./mobile\ view.jpg");
+  border :black solid;
 
 }
 
@@ -684,4 +685,44 @@ footer
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 }
+/*---------------------------------------------------------------*/
+.dark-mode {
+  background-color: black;
+  color: white;
+  background-image: url(./dark.gif) ;
+}
+.dark-mode td
+{
+  color:white;
+  background:black;
+  opacity:1;
+}
+.dark-mode #click
+{
+  
+  color:black;
+  background-color: white;
+  
+}
+
+.dark-mode td button a
+{
+  opacity:1;
+  color:black;
+  
+}
+
+.dark-mode header
+{
+  border: rgb(254, 255, 255) solid;
+}
+
+#dark
+{
+  width:15%;
+  height:10%;
+}
+
+
+
 
