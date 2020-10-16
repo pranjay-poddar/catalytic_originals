@@ -14,7 +14,7 @@
 </head>
 <body>
 	<div id=cato-logo>
-	<a href="#footerabout"><img src="./favicon.png" class="loader"></a>
+	<a href="#footerabout"><img src="./images/cato.png" class="loader"></a>
 	</div>
 	<div class="topnav" id="myTopnav">
 		<a href="#home" class="active">Home</a>
@@ -26,7 +26,17 @@
 		  <i class="fa fa-bars"></i>
 		</a>
 	  </div>
-	  
+	  <button onclick="darkmode()" class="sub" style="float:left;" id="dark">Dark Mode</button>
+	  <script>
+		function darkmode() {
+		   var element = document.body;
+		   element.classList.toggle("dark-mode");
+		   if(document.getElementById("dark").innerHTML=="Dark Mode")
+		   document.getElementById("dark").innerHTML="Light Mode";
+		   else
+		   document.getElementById("dark").innerHTML="Dark Mode";
+		}
+		</script>
 	  <form  onsubmit ="greet();return false;">
 		<input  type="submit" class="sub">
 		<input type="text" id="name" class= "subtext" placeholder="Type Your Name">
