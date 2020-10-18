@@ -28,10 +28,10 @@ function myFunction() {
     document.getElementById("darknav").innerHTML="Dark Mode";
   }
 
-/*
+
 
   document.addEventListener("contextmenu", function(e){
     e.preventDefault();
 }, false);
 
-*/
+
