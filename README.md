@@ -20,6 +20,11 @@ https://pranjay-poddar.github.io/catalytic_originals/
   <img src="./images/website-screenshot2.png" width="600" title="hover text">
   </p>
   <br>
+  <h4 align="center">Responsive For Std Sized Screens:</h4>
+  <p align="center">
+  <img src="https://github.com/pranjay-poddar/catalytic_originals/blob/master/images/responsive.png" width="600" title="hover text">
+  </p>
+  <br>
   <h4 align="center">
    ©Pranjay2020
   </h4>
