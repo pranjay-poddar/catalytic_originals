@@ -204,15 +204,12 @@ table{
    margin-right: 7%;
 }
 th{
-   -webkit-background: linear-gradient(to bottom, #89defa 0%, #e5e9e5 100%);
-   -o-background: linear-gradient(to bottom, #89defa 0%, #e5e9e5 100%);
-   -moz-background: linear-gradient(to bottom, #89defa 0%, #e5e9e5 100%);
-   background: linear-gradient(to bottom, #89defa 0%, #e5e9e5 100%);
+   background: rgb(50, 196, 253,.5);
    -webkit-border-radius: 10px 10px 0px 0px;
    -o-border-radius: 10px 10px 0px 0px;
    -moz-border-radius: 10px 10px 0px 0px;
    border-radius: 10px 10px 0px 0px;
-   border:.5px solid #000000;
+   
    font-weight: 100;
    padding:1%;
    width: 10%;
