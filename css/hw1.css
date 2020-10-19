@@ -361,9 +361,10 @@ margin-top: 10%;
 
 .topnav {
  overflow: hidden;
- background-color:#37c0ee;
+ background-color:#e5e9e5;
  border-radius: 15%;
  color :black;
+ 
 }
 
 .topnav a {
@@ -374,8 +375,20 @@ margin-top: 10%;
  padding: 14px 16px;
  text-decoration: none;
  font-size: 17px;
+ font-weight: 500;
+ 
 }
 
+.topnav #navblue
+{
+  background: #9ce0f7;
+  border-top: #000000 solid 1px;
+}
+.topnav #darknav
+{
+  background: #9ce0f7;
+  border-top: #000000 solid 1px;
+}
 .topnav a:hover {
  background-color: #e5e9e5;
  color: black;
