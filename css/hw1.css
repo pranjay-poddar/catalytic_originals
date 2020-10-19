@@ -189,8 +189,8 @@ nav a:hover {
 #click
 {
  border-radius: 10%;
- background-color:rgba(248, 242, 242, 0.7);
- 
+ background-color: rgb(50, 196, 253,.1);
+ color:black;
  
 }
 td>button > a
@@ -700,7 +700,7 @@ footer
 .dark-mode th
 {
   color:white;
-  font-weight: 100;
+  font-weight: 400;
 }
 .dark-mode td
 {
