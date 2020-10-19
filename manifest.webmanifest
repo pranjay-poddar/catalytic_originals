@@ -1,23 +1,27 @@
 {
     "name": "Catalytic Originals",
     "short_name": "Catorig",
-    "description": "A vlogging channel app.",
+    "start_url":".",
     "display": "standalone",
+    "background_color":"#fff",
+    "description": "A vlogging channel app.",
+    
+    
     "scope": "/app/",
     "icons": [{
-      "src": "favicon.png",
+      "src": "images/favicon48.png",
       "sizes": "48x48",
       "type": "image/png"
     }, {
-      "src": "favicon.png",
+      "src": "images/favicon72.png",
       "sizes": "72x72",
       "type": "image/png"
     }, {
-      "src": "favicon.png",
+      "src": "images/favicon96.png",
       "sizes": "96x96",
       "type": "image/png"
     }, {
-      "src": "favicon.png",
+      "src": "images/favicon144.png",
       "sizes": "144x144",
       "type": "image/png"
     }]
