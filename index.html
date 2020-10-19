@@ -11,7 +11,8 @@
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
  
 	<link rel="stylesheet" href="css/hw1.css">
-	
+
+
 	<!----------------CHAT BOT START --------------------------------------------------------------------------->
 <!-- Start of Async Drift Code -->
 <script>
@@ -40,6 +41,8 @@
 	drift.SNIPPET_VERSION = '0.3.1';
 	drift.load('cx4eva5wf5ir');
 	</script>
+
+	
 	<!----------------------CHAT BOT END ----------------------------------------- End of Async Drift Code -->
 
 </head>
@@ -47,7 +50,7 @@
 	<div id=cato-logo>
 	<a href="#footerabout"><img src="./images/cato.png" class="loader"></a>
 	</div>
-	<div class="topnav" id="myTopnav">
+	<div class="topnav" class="collapse show navbar-collapse" id="myTopnav">
 		<a href="javascript:void(0);" onclick="myFunction() "class="active">Menu</a>
 		<a href="#collab">Collabs</a>
 		<a href="#guitar">Mashups</a>
@@ -55,9 +58,24 @@
 		<a href="./graphic.html">Graphic Designs</a>
 		<a href="./signup/index.html">Sign Up</a>
 		<a onclick="darkmode()" id="darknav">Dark Mode</a>
-		 
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		 <i class="fa fa-bars"></i>
+			
+		<a href="javascript:void(0);" class="icon" onclick="myFunction();closeicon();">
+		 <i id="close1" class="fa fa-bars"></i>
+		 <script>
+			 
+function closeicon() {
+
+if ( document.getElementById("close1").classList=='fa fa-bars'){
+
+document.getElementById("close1").classList=('fa fa-close');
+
+}
+else
+{
+	document.getElementById("close1").classList=('fa fa-bars');
+}
+}
+		 </script>
 		</a>
 	  </div>
 	  <button onclick="darkmode()" class="sub" style="float:left;" id="dark">Dark Mode</button>
