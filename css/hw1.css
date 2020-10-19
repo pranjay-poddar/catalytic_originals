@@ -362,7 +362,7 @@ margin-top: 10%;
 .topnav {
  overflow: hidden;
  background-color:#e5e9e5;
- border-radius: 15%;
+ border-radius: 3%;
  color :black;
  
 }
@@ -383,11 +383,13 @@ margin-top: 10%;
 {
   background: #9ce0f7;
   border-top: #000000 solid 1px;
+  border-radius: 1%;
 }
 .topnav #darknav
 {
   background: #9ce0f7;
   border-top: #000000 solid 1px;
+  border-radius: 1%;
 }
 .topnav a:hover {
  background-color: #e5e9e5;
