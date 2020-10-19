@@ -57,18 +57,18 @@ header{
 
 h2 {
    font-size: 130%;
-   color:#ffffff;
+   color:#161616;
    font-family:headfont;
-   text-shadow: 2px 2px #008000;
+   text-shadow: 2px 2px #89defa;
    text-align: center;
 
 }
 
 .left >h2{
-  color: #ffffff;
+  color: #161616;
  font-family: headfont;
- font-size: 100%;
- text-shadow: 2px 2px #008000;
+ font-size: 130%;
+ text-shadow: 2px 2px #89defa;
 }
 
 
@@ -80,10 +80,10 @@ h1{
    font-size: 250%;
    color: #ffffff;
    font-family: myFirstFont;
-   text-shadow: 2px 2px #008000;
+   text-shadow: 2px 2px #00FF00;
 }
 h1:hover{
-   color: #00FF00;
+   color: #000000;
 }
 
 nav {
@@ -156,10 +156,6 @@ nav a:hover {
 
 
 .left{
-   background: linear-gradient(to bottom, #33ccff 0%, #99ff66 100%);
-   -webkit-background: linear-gradient(to bottom, #33ccff 0%, #99ff66 100%);
-   -o-background: linear-gradient(to bottom, #33ccff 0%, #99ff66 100%);
-   -moz-background: linear-gradient(to bottom, #33ccff 0%, #99ff66 100%);
    display:inline-block;
    padding: 3%;
    float:left;
@@ -172,10 +168,7 @@ nav a:hover {
 }
 
 .right{
-   -webkit-background: linear-gradient(to bottom, #33ccff 0%, #0066cc 100%);
-   -o-background: linear-gradient(to bottom, #33ccff 0%, #0066cc 100%);
-   -moz-background: linear-gradient(to bottom, #33ccff 0%, #0066cc 100%);
-   background: linear-gradient(to bottom, #33ccff 0%, #0066cc 100%);
+   background:rgba(83, 83, 83, 0.1);
    font-family: Arial,"Times New Roman",serif;
    margin-left: 5px;
    display:inline-block;
@@ -211,15 +204,16 @@ table{
    margin-right: 7%;
 }
 th{
-   -webkit-background: linear-gradient(to bottom, #3333cc 0%, #33ccff 100%);
-   -o-background: linear-gradient(to bottom, #3333cc 0%, #33ccff 100%);
-   -moz-background: linear-gradient(to bottom, #3333cc 0%, #33ccff 100%);
-   background: linear-gradient(to bottom, #3333cc 0%, #33ccff 100%);
+   -webkit-background: linear-gradient(to bottom, #89defa 0%, #e5e9e5 100%);
+   -o-background: linear-gradient(to bottom, #89defa 0%, #e5e9e5 100%);
+   -moz-background: linear-gradient(to bottom, #89defa 0%, #e5e9e5 100%);
+   background: linear-gradient(to bottom, #89defa 0%, #e5e9e5 100%);
    -webkit-border-radius: 10px 10px 0px 0px;
    -o-border-radius: 10px 10px 0px 0px;
    -moz-border-radius: 10px 10px 0px 0px;
    border-radius: 10px 10px 0px 0px;
    border:.5px solid #000000;
+   font-weight: 100;
    text-shadow: .5px .5px green;
    padding:1%;
    width: 10%;
@@ -232,7 +226,7 @@ td{
    -webkit-opacity: .5;
    -o-opacity: .5;
    -moz-opacity: .5;
-   opacity: .5;
+   opacity: 1;
 
 
 }
@@ -371,7 +365,7 @@ margin-top: 10%;
 
 .topnav {
  overflow: hidden;
- background-color:#89defa;
+ background-color:#37c0ee;
  border-radius: 15%;
  color :black;
 }
@@ -701,6 +695,16 @@ footer
  background-color: black;
  color: white;
  background-image: url(./dark.gif) ;
+}
+.dark-mode h2
+{
+  color:white;
+  text-shadow: 2px 2px #000000;
+}
+.dark-mode th
+{
+  color:black;
+  font-weight: 100;
 }
 .dark-mode td
 {
