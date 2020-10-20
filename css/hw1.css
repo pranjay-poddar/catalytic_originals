@@ -363,6 +363,8 @@ margin-top: 10%;
  display:none;
 }
 
+ 
+
 .topnav {
  overflow: hidden;
  background-color:#e5e9e5;
@@ -395,6 +397,7 @@ margin-top: 10%;
   border-top: #000000 solid 1px;
   border-radius: 1%;
 }
+
 .topnav a:hover {
  background-color: #e5e9e5;
  color: black;
@@ -427,7 +430,7 @@ margin-top: 10%;
 
 
 
-@media screen and (max-width: 876px) {
+@media screen and (max-width: 880px) {
  .topnav.responsive {position: relative;}
  .topnav.responsive .icon {
    position: absolute;
@@ -549,6 +552,10 @@ margin-top: 30%;
 margin-top: 30%;
 
 } 
+footer
+{
+  margin-top: 30%;
+}
 .social img
 {
  height:30px;
@@ -622,7 +629,7 @@ margin-top: 30%;
  .right
  {font-size: 70%;
    margin-left: 10%;
-   margin-top: 20%;
+   margin-top: 25%;
  }
 
  nav
@@ -633,7 +640,7 @@ margin-top: 30%;
  /*  Collab */
 #collab
 {
-margin-top: 10%;
+margin-top: 20%;
 
 }
 header
@@ -646,18 +653,18 @@ header
 /*  Guitar */
 #guitar
 {
-margin-top: 30%;
+margin-top: 40%;
 }
 
 /*  Vlogs */
 #vlogs
 {
-margin-top: 30%;
+margin-top: 40%;
 
 } 
 footer
 {
- margin-top: 30%;
+ margin-top: 50%;
 }
 .social img
 {
@@ -764,6 +771,17 @@ footer
 .dark-mode .subtext
 {
  background:rgb(254, 255, 255)
+}
+
+.dark-mode nav a:hover {
+  background: black;
+  width:200px;
+  color:white;
+
+  }
+.dark-mode .active {
+  background: black;
+  color:white;
 }
 
 #dark
