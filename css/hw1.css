@@ -326,7 +326,7 @@ margin-top: 10%;
 }
 .sub
 {
-  background: rgb(50, 196, 253,.3);
+  background: rgba(253, 253, 253, 0.5);
  width:60px;
  height: 30px;
  font-size: 90%;
@@ -485,7 +485,7 @@ margin-top: 10%;
    margin-top: 5%;
    margin-left: 5%;
    color:black;
-   background: rgb(50, 196, 253,.3);
+   
  }
  header
  {
