@@ -720,10 +720,15 @@ footer
   color:white;
   text-shadow: 2px 2px #000000;
 }
+.dark-mode .right
+{
+  background: rgba(0,0,0,0.5);
+}
 .dark-mode th
 {
   color:white;
   font-weight: 400;
+  background: rgb(3, 145, 201);
 }
 .dark-mode td
 {
