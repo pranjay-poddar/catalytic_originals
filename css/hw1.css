@@ -332,7 +332,8 @@ margin-top: 10%;
  font-size: 90%;
  float:right;
  margin-left: 1%;
- border-radius: 20%;
+ border-radius: 10px;
+ cursor: pointer;
 }
 .subtext
 {
@@ -343,8 +344,9 @@ margin-top: 10%;
   font-size: 60%; 
   text-align: center;
   float :right;
-  border-radius: 20%;
+  border-radius: 10px;
   display: inline-block;
+  cursor: pointer;
 }
 ::placeholder
 {
