@@ -259,6 +259,11 @@ color: red;
  color: white;
 
 }
+.social h2
+{
+  color: white;
+  text-shadow: none;
+}
 
 .social{
  
@@ -440,6 +445,7 @@ margin-top: 10%;
    display: block;
    text-align: center;
  }
+ 
  #cato-logo .loader
  {
    height:20%;
