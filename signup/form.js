@@ -81,3 +81,8 @@ return false;
             return true;
         }
 
+        
+  document.addEventListener("contextmenu", function(e){
+    e.preventDefault();
+}, false);
+
