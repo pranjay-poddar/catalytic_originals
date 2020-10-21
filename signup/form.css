@@ -4,7 +4,7 @@
  }
 body
 {
-    background-image:url('./logo/3.jpg') ;
+    background-image:url('./logo/background.jpg') ;
     
 }
 
@@ -91,15 +91,16 @@ cursor:pointer;
 .sub
 {
     padding:3%;
-    margin-left: 5%;
+    margin-right: 13%;
 }
 /*-----------------------------------------------------------------------------------------------*/
 @media (max-width: 800px)
 {
     #title
     {
-        color:white;
+        color:rgb(207, 88, 88,.95);;
         font-size: 150%;
+    
     }
     .form-group
     {
@@ -155,6 +156,13 @@ cursor:pointer;
     {
         width: 90%;
     }
-    
+    .sub
+    {
+        margin-right: 7%;
+    }
+    .submit-button
+    {
+        width:40%;
+    }
 
 }
