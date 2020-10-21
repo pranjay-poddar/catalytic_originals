@@ -363,8 +363,6 @@ margin-top: 10%;
  display:none;
 }
 
- 
-
 .topnav {
  overflow: hidden;
  background-color:#e5e9e5;
@@ -619,6 +617,15 @@ footer
    display:inline;
    width: 110px;
    height: 70px;
+ }
+ .subtext
+{
+  padding: 6px;
+}
+ ::placeholder
+ {
+   font-size: 100%;
+  
  }
  
  #imageshide
