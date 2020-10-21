@@ -618,15 +618,6 @@ footer
    width: 110px;
    height: 70px;
  }
- .subtext
-{
-  padding: 6px;
-}
- ::placeholder
- {
-   font-size: 100%;
-  
- }
  
  #imageshide
  {
