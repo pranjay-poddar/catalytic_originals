@@ -461,12 +461,13 @@ margin-top: 10%;
 {
  .subtext
  {
-   font-size: 55%;
+   font-size: 53%;
    padding :5px;
    height: 15px;
    width:40px;
    margin-top: 5%;
    margin-left: 5%;
+   font-weight: 400;
 
    
  }
