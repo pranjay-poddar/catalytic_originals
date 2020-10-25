@@ -348,7 +348,6 @@ margin-top: 10%;
   font-size: 60%; 
   text-align: center;
   float :right;
-  border-radius: 10px;
   display: inline-block;
   cursor: pointer;
 }
@@ -358,11 +357,6 @@ margin-top: 10%;
  color:black;
 }
 
-.submit:hover
-{
- background-color:white;
- color:black;
-}
 .icon
 {
  display:none;
