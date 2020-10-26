@@ -782,7 +782,17 @@ footer
   background: black;
   color:white;
 }
+.dark-mode .right >p:hover {
+  background: rgba(12, 12, 12, 0.8) ;
+}
 
+.dark-mode td:hover{
+  -webkit-opacity: 1;
+  -o-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+background: rgba(175, 243, 252, 0.6) ;
+}
 #dark
 {
  width:50px;
