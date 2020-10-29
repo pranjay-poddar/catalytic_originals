@@ -74,7 +74,7 @@ h2 {
    font-size: 130%;
    color:#161616;
    font-family:headfont;
-   text-shadow: 2px 2px #89defa;
+   text-shadow:1px 1px #ffffff;
    text-align: center;
 
 }
@@ -83,7 +83,7 @@ h2 {
   color: #161616;
  font-family: headfont;
  font-size: 130%;
- text-shadow: 2px 2px #89defa;
+ text-shadow:1px 1px #ffffff;
 }
 
 
