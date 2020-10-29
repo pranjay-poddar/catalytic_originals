@@ -95,7 +95,7 @@ h1{
    font-size: 250%;
    color: #ffffff;
    font-family: myFirstFont;
-   text-shadow: 2px 2px #00FF00;
+   text-shadow: 2px 1px #00FF00;
 }
 h1:hover{
    color: #000000;
