@@ -34,6 +34,11 @@
 
 }
 
+.topnav
+{
+  font-family: headfont;
+}
+
 /* Safari */
 @-webkit-keyframes spin {
  0% { -webkit-transform: rotate(0deg); }
@@ -103,6 +108,7 @@ h1:hover{
 
 nav {
    color: #000000;
+   font-family: headfont;
 }
 
 p {
@@ -206,6 +212,7 @@ nav a:hover {
  border-radius: 10%;
  background-color: rgb(50, 196, 253,.1);
  color:black;
+ font-family: headfont;
  
 }
 td>button > a
@@ -224,7 +231,7 @@ th{
    -o-border-radius: 10px 10px 0px 0px;
    -moz-border-radius: 10px 10px 0px 0px;
    border-radius: 10px 10px 0px 0px;
-   
+   font-family: headfont;
    font-weight: 400;
    padding:1%;
    width: 10%;
@@ -232,6 +239,7 @@ th{
 }
 td{
    background-color: #ffffff;
+   font-family: headfont;
    font-size: 100%;
    padding:1%;
    -webkit-opacity: .5;
@@ -321,6 +329,7 @@ color: #ffffff;
 text-align: center;
 padding: 2px;
 border-radius: 50%;
+font-family: headfont;
 }
 
 
@@ -354,6 +363,7 @@ margin-top: 10%;
  margin-left: 1%;
  border-radius: 10px;
  cursor: pointer;
+ font-family: headfont;
 }
 .subtext
 {
@@ -366,6 +376,7 @@ margin-top: 10%;
   float :right;
   display: inline-block;
   cursor: pointer;
+  font-family: headfont;
 }
 ::placeholder
 {
