@@ -14,8 +14,24 @@
  display :inline-block;
  float: left;
  
- -webkit-animation: spin 4s linear infinite; /* Safari */
- animation: spin 4s linear infinite;
+
+ -webkit-transform: height,width,transform;
+       -o-transform: height,width,transform;
+       -moz-transform: height,width,transform;
+       transform: height,width,transform;
+       -webkit-transition-duration: .5s,.5s,.5s;
+       -o-transition-duration: .5s,.5s,.5s;
+       -moz-transition-duration: .5s,.5s,.5s;
+       transition-duration: .5s,.5s,.5s;  
+}
+.loader:hover
+{
+  -webkit-transform: rotate(360deg);
+   -o-transform: rotate(360deg);
+   -moz-transform: rotate(360deg);
+   transform: rotate(360deg);
+   
+
 }
 
 /* Safari */
@@ -448,10 +464,7 @@ margin-top: 10%;
    margin-right: 5%;
  }
 
- .social img{
- -webkit-animation: spin 4s linear infinite; /* Safari */
- animation: spin 4s linear infinite;
- }
+ 
  
  
 }
