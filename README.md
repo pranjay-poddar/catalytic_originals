@@ -6,10 +6,11 @@ https://pranjay-poddar.github.io/catalytic_originals/
 Discription:
 A vlogging channel's website with beautiful animations used in different sections, completely made using HTML5, CSS3, and Javascript. The first page consists of the home and about section followed by various other sections such as mashups, collabs signup, and graphic design that redirects to the particular youtube videos, signup nav redirects to a signup page for registration, and the graphic design redirects to an image gallery carousel. This website is available on both light and dark modes and is completely responsive hence compatible for viewing with mobile, tablets, and desktops.
 <br>
-<p align="center">
+
   ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
   ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
   ![forthebadge](https://forthebadge.com/images/badges/uses-brains.svg)
+<p align="center">
   
   <img src="favicon.png" width="150" title="hover text">
   </p >
