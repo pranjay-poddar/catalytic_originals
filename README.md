@@ -22,12 +22,12 @@ A vlogging channel's website with beautiful animations used in different section
   <br>
   <h4 align="center">Light Mode:</h4>
   <p align="center">
-  <img src="./images/website-screenshot.PNG" width="600" title="hover text">
+  <img src="./images/light.PNG" width="600" title="hover text">
   </p>
   <br>
   <h4 align="center">Dark Mode:</h4>
   <p align="center">
-  <img src="./images/website-screenshot2.png" width="600" title="hover text">
+  <img src="./images/dark.png" width="600" title="hover text">
   </p>
   <br>
   <h4 align="center">Responsive For Std Sized Screens:</h4>
