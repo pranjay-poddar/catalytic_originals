@@ -7,13 +7,12 @@
   src: url(HKGrotesk.otf);
 }
 /*------------------3 col---start------------------------------*/
-.row{
-  margin-left: 25%;
-}  
+ 
 .colm{
     display:inline-block;
-    margin-left: 7rem;
+    width: 33%;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
   }
   .colm i{
@@ -550,12 +549,10 @@ margin-top: 10%;
  
  
 /*------------------3 col---start------------------------------*/
-.row{
-  margin-left: 30%;
-}  
+
 .colm{
     display:inline-block;
-    margin-left: 10%;
+    width: 32%;
     margin-top:13% ;
     text-align: center;
   }
@@ -572,7 +569,7 @@ margin-top: 10%;
   #switch-mobile{
     display: inline-block;
     text-align: center;
-    margin-left: 50%;
+    margin-left: 45%;
     margin-top:0%;
 		
   }
@@ -723,40 +720,6 @@ footer
  .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 }
-@media (max-width: 450px){
-/*------------------3 col---start------------------------------*/
-.row{
-  margin-left: 13%;
-}  
-.colm{
-    display:inline-block;
-    margin-left: 10%;
-    margin-top: 13%;
-    text-align: center;
-  }
-  .colm i{
-    font-size: 250%;
-  }
-
-  
-  header{
-    margin-top: 7rem;
-  }
-  #switch-web{
-  display: none;
-  }
-  #switch-mobile{
-    display: inline-block;
-    text-align: center;
-    margin-left: 40%;
-    margin-top:2rem;
-		
-  }
-  /*------------------3 col--end-------------------------------*/
-
-}
-
-
 /*----------------for smalll screens---------------------------------------------------------------------------*/
 
 @media (max-width: 350px)
@@ -768,7 +731,7 @@ footer
 }  
 .colm{
     display:inline-block;
-    margin-left: 1.5rem;
+    width: 32%;
     margin-top: 2rem;
     text-align: center;
   }
