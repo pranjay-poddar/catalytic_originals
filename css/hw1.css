@@ -551,16 +551,16 @@ margin-top: 10%;
  
 /*------------------3 col---start------------------------------*/
 .row{
-  margin-left: 3%;
+  margin-left: 30%;
 }  
 .colm{
     display:inline-block;
-    padding: 1%;
-    margin-top: 2rem;
+    margin-left: 10%;
+    margin-top:13% ;
     text-align: center;
   }
   .colm i{
-    font-size: 2.5rem;
+    font-size: 250%;
   }
 
   header{
@@ -726,16 +726,16 @@ footer
 @media (max-width: 450px){
 /*------------------3 col---start------------------------------*/
 .row{
-  margin-left: 1%;
+  margin-left: 15%;
 }  
 .colm{
     display:inline-block;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    margin-left: 10%;
+    margin-top: 13%;
     text-align: center;
   }
   .colm i{
-    font-size: 2rem;
+    font-size: 250%;
   }
 
   header{
@@ -763,7 +763,7 @@ footer
   
 /*------------------3 col---start------------------------------*/
 .row{
-  margin-left: 1%;
+  margin-left: 10%;
 }  
 .colm{
     display:inline-block;
