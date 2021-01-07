@@ -6,8 +6,38 @@
   font-family: headfont;
   src: url(HKGrotesk.otf);
 }
+/*------------------3 col---start------------------------------*/
+.row{
+  margin-left: 25%;
+}  
+.colm{
+    display:inline-block;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .colm i{
+    font-size: 3rem;
+  }
+
+  #i1{
+    color:#e54d26;
+  }
+  #i2{
+    color:#2163af;
+  }
+  #i3{
+    color:#563d7c;
+  }
+  /*------------------3 col--end-------------------------------*/
+  
+
 /*toggle switch css--------------------------------------------------------------------*/
 /* The switch - the box around the slider */
+#switch-mobile{
+  display: none;
+}
+
 .switch {
   position: relative;
   display: inline-block;
@@ -48,11 +78,11 @@
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: rgba(64, 201, 255, 0.9);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px rgba(64, 201, 255, 0.9);
 }
 
 input:checked + .slider:before {
@@ -68,6 +98,9 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+.switch{
+  margin-left: 30%;
 }
 /*toggle switch css end----------------------------------------------------------------*/
 
@@ -361,7 +394,7 @@ i:hover::before {
 
 i:before {
   display: inline-block;/* mandatory to be able to use transform */
-  transition: .5s all;
+  transition: 1s all;
 }
 .credit
 {
@@ -514,7 +547,37 @@ margin-top: 10%;
 /*-----------------------------------------------------------------*/
 @media (max-width: 880px)
 {
- .subtext
+ 
+ 
+/*------------------3 col---start------------------------------*/
+.row{
+  margin-left: 3%;
+}  
+.colm{
+    display:inline-block;
+    padding: 1%;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .colm i{
+    font-size: 2.5rem;
+  }
+
+  header{
+    margin-top: 7rem;
+  }
+  #switch-web{
+  display: none;
+  }
+  #switch-mobile{
+    display: inline-block;
+    text-align: center;
+    margin-left: 50%;
+    margin-top:0%;
+		
+  }
+  /*------------------3 col--end-------------------------------*/
+  .subtext
  {
    font-size: 53%;
    padding :5px;
@@ -551,11 +614,7 @@ td{
    color:black;
    
  }
- header
- {
-   margin-top: 25%;
-   
- }
+ 
  .topnav
  {
    display: block;
@@ -625,10 +684,8 @@ footer
   font-size: 140%;
   margin-left: 5%;
 }
-}
-/* nav meadia query for mobile view ------------------------------------------------------------------------------------*/
-@media (max-width: 880px){
- .dropbtn {
+
+  .dropbtn {
    background-color: #4CAF50;
    color: white;
    padding: 16px;
@@ -666,12 +723,72 @@ footer
  .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 }
+@media (max-width: 450px){
+/*------------------3 col---start------------------------------*/
+.row{
+  margin-left: 1%;
+}  
+.colm{
+    display:inline-block;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .colm i{
+    font-size: 2rem;
+  }
+
+  header{
+    margin-top: 7rem;
+  }
+  #switch-web{
+  display: none;
+  }
+  #switch-mobile{
+    display: inline-block;
+    text-align: center;
+    margin-left: 40%;
+    margin-top:2rem;
+		
+  }
+  /*------------------3 col--end-------------------------------*/
+
+}
 
 
 /*----------------for smalll screens---------------------------------------------------------------------------*/
 
 @media (max-width: 350px)
 {
+  
+/*------------------3 col---start------------------------------*/
+.row{
+  margin-left: 1%;
+}  
+.colm{
+    display:inline-block;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .colm i{
+    font-size: 1.5rem;
+  }
+
+  header{
+    margin-top: 7rem;
+  }
+  #switch-web{
+  display: none;
+  }
+  #switch-mobile{
+    display: inline-block;
+    text-align: center;
+    margin-left: 40%;
+    margin-top:2rem;
+		
+  }
+  /*------------------3 col--end-------------------------------*/
 
  .dropbtn
  {

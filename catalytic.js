@@ -16,11 +16,6 @@ function myFunction() {
   function darkmode() {
     var element = document.body;
     element.classList.toggle("dark-mode");
-    if(document.getElementById("dark").innerHTML=="Dark Mode")
-    document.getElementById("dark").innerHTML="Light Mode";
-    else
-    document.getElementById("dark").innerHTML="Dark Mode";
-
 
     if(document.getElementById("darknav").innerHTML=="Dark Mode")
     document.getElementById("darknav").innerHTML="Light Mode";
