@@ -6,6 +6,70 @@
   font-family: headfont;
   src: url(HKGrotesk.otf);
 }
+/*toggle switch css--------------------------------------------------------------------*/
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/*toggle switch css end----------------------------------------------------------------*/
 
 /*loading---------------*/
 .loader {
@@ -30,8 +94,6 @@
    -o-transform: rotate(360deg);
    -moz-transform: rotate(360deg);
    transform: rotate(360deg);
-   
-
 }
 
 .topnav
@@ -55,10 +117,7 @@ body{
    margin: 5px;
    padding :5px 15px;
    background:white;
-  
-
 }
-
 
 header{
    background: #cff6cf;
@@ -71,15 +130,12 @@ header{
    border-radius: 15%;
    margin-bottom: 5%;
    margin-top: 5%;
-   
-
 }
 
 h2 {
    font-size: 130%;
    color:#161616;
    font-family:headfont;
-   text-shadow:1px 1px #ffffff;
    text-align: center;
 
 }
@@ -88,7 +144,6 @@ h2 {
   color: #161616;
  font-family: headfont;
  font-size: 130%;
- text-shadow:1px 1px #ffffff;
 }
 
 
@@ -115,8 +170,6 @@ p {
  font-family: headfont;
 }
 
-
-   
 .left img{
        
        display: block;
@@ -189,7 +242,7 @@ nav a:hover {
 }
 
 .right{
-   background:rgba(83, 83, 83, 0.1);
+   background:rgba(83, 83, 83, 0.2);
    font-family: Arial,"Times New Roman",serif;
    margin-left: 5px;
    display:inline-block;
@@ -207,24 +260,17 @@ nav a:hover {
    background: rgba(255, 255, 255, 0.9) ;
 }
 
-#click
+.right td i
 {
- border-radius: 10%;
- background-color: rgb(50, 196, 253,.1);
- color:black;
- font-family: headfont;
- 
-}
-td>button > a
-{
- color:black;
  text-decoration: none;
+ color:black;
 }
 table{
    margin-left:7%;
    margin-top: 2%;
    margin-right: 7%;
 }
+
 th{
    background: rgb(50, 196, 253,.5);
    -webkit-border-radius: 10px 10px 0px 0px;
@@ -237,6 +283,7 @@ th{
    width: 10%;
    
 }
+
 td{
    background-color: #ffffff;
    font-family: headfont;
@@ -246,8 +293,6 @@ td{
    -o-opacity: .5;
    -moz-opacity: .5;
    opacity: 1;
-
-
 }
 td:first-child { text-align:left; }
 td:nth-child(2) { text-align:center; }
@@ -259,7 +304,6 @@ td:hover{
    opacity: 1;
  background: rgba(246,222,246,.5) ;
 }
-
 
 footer{
 height:10%;
@@ -275,13 +319,10 @@ height:10%;
  
 }
 #heart{ 
-
 color: red;
 }
 #heart:hover{
-
  color: white;
-
 }
 .social h2
 {
@@ -290,22 +331,18 @@ color: red;
 }
 
 .social{
- 
  bottom:0;
- 
-
- 
+}
+.social a{
+  text-decoration: none;
 }
 
-.social img{
+.social i{
  display: inline;
- width:3%;
+ width:8%;
  margin-left: 2%;
- border-radius: 150px;
- background:rgb(254, 255, 255) ;
-
-
-
+ color:white;
+font-size:200%;
  -webkit-transform: height,width,transform;
        -o-transform: height,width,transform;
        -moz-transform: height,width,transform;
@@ -315,13 +352,16 @@ color: red;
        -moz-transition-duration: .5s,.5s,.5s;
        transition-duration: .5s,.5s,.5s;    
 }
-.social img:hover{
- -webkit-transform: rotate(360deg);
-   -o-transform: rotate(360deg);
-   -moz-transform: rotate(360deg);
-   transform: rotate(360deg);
-   background: rgb(148, 248, 81);
+.social i:hover{
+   color: rgb(148, 248, 81);
+}
+i:hover::before {
+  transform: rotate(360deg);
+}
 
+i:before {
+  display: inline-block;/* mandatory to be able to use transform */
+  transition: .5s all;
 }
 .credit
 {
@@ -338,7 +378,6 @@ font-family: headfont;
 #collab
 {
 margin-top: 5%;
-
 }
 
 /*  Guitar */
@@ -394,8 +433,7 @@ margin-top: 10%;
  background-color:#e5e9e5;
  border-radius: 3%;
  color :black;
- 
-}
+ }
 
 .topnav a {
  float: left;
@@ -406,8 +444,7 @@ margin-top: 10%;
  text-decoration: none;
  font-size: 17px;
  font-weight: 500;
- 
-}
+ }
 
 .topnav #navblue
 {
@@ -452,8 +489,6 @@ margin-top: 10%;
  }
 }
 
-
-
 @media screen and (max-width: 880px) {
  .topnav.responsive {position: relative;}
  .topnav.responsive .icon {
@@ -473,11 +508,7 @@ margin-top: 10%;
    width: 20%;
    
    margin-right: 5%;
- }
-
- 
- 
- 
+ } 
 }
 
 /*-----------------------------------------------------------------*/
@@ -492,10 +523,16 @@ margin-top: 10%;
    margin-top: 5%;
    margin-left: 5%;
    font-weight: 400;
+}
 
-   
- }
+table{
+  margin-left: 0%;
+  margin-right: 0%;
+}
 
+td{
+  padding: 2%;
+}
  #dark
  {
    display:none;
@@ -534,7 +571,7 @@ margin-top: 10%;
  .left img
  {
    display:inline;
-   width: 130px;
+   width: 132px;
    height: 100px;
  }
  
@@ -545,9 +582,13 @@ margin-top: 10%;
 
  .right
  {font-size: 80%;
-   margin-left: 10%;
    margin-top: 20%;
+   margin-left: 5%;
+   margin-right: 5%;
+   margin-top: 25%;
+   width: 90%;
  }
+ 
 
  nav
  {
@@ -579,10 +620,10 @@ footer
 {
   margin-top: 30%;
 }
-.social img
+.social i
 {
- height:30px;
- width:30px;
+  font-size: 140%;
+  margin-left: 5%;
 }
 }
 /* nav meadia query for mobile view ------------------------------------------------------------------------------------*/
@@ -651,8 +692,10 @@ footer
 
  .right
  {font-size: 70%;
-   margin-left: 10%;
+   margin-left: 5%;
+   margin-right: 5%;
    margin-top: 25%;
+   width: 90%;
  }
 
  nav
@@ -672,6 +715,10 @@ header
  border :black solid;
 
 }
+table{
+  margin-left: 0%;
+  margin-right: 0%;
+}
 
 /*  Guitar */
 #guitar
@@ -689,10 +736,10 @@ footer
 {
  margin-top: 50%;
 }
-.social img
+.social i
 {
- height:30px;
- width:30px;
+  font-size: 140%;
+  margin-left: 5%;
 }
 }
 /* nav meadia query for mobile view   ----------------------------------------------------*/
@@ -716,6 +763,9 @@ footer
    display: inline-block;
  }
  
+  td{
+   padding: 2%;
+ }
  .dropdown-content {
    display: none;
    position: absolute;
@@ -766,19 +816,10 @@ footer
  background:black;
  opacity:1;
 }
-.dark-mode #click
+.dark-mode .right td i
 {
- 
- color:black;
- background-color: white;
- 
-}
-
-.dark-mode td button a
-{
- opacity:1;
- color:black;
- 
+ text-decoration: none;
+ color:white;
 }
 
 .dark-mode header
