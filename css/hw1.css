@@ -20,13 +20,13 @@
   }
 
   #i1{
-    color:#e54d26;
+    color: #ff971d;
   }
   #i2{
-    color:#2163af;
+    color:#28a745;
   }
   #i3{
-    color:#563d7c;
+    color:#e54d26;
   }
   /*------------------3 col--end-------------------------------*/
   
@@ -148,9 +148,8 @@ input:checked + .slider:before {
 body{
    margin: 5px;
    padding :5px 15px;
-   background:#ffffff;
+   background:#ffe8d6;
 }
-
 header{
    background: #cff6cf;
    text-align: center;
@@ -165,17 +164,19 @@ header{
 }
 
 h2 {
-   font-size: 130%;
+   font-size: 150%;
    color:#161616;
    font-family:headfont;
    text-align: center;
+   font-weight: 800;
 
 }
 
 .left >h2{
   color: #161616;
  font-family: headfont;
- font-size: 130%;
+ font-size: 150%;
+ font-weight: 800;
 }
 
 
@@ -569,7 +570,7 @@ margin-top: 10%;
   #switch-mobile{
     display: inline-block;
     text-align: center;
-    margin-left: 45%;
+    margin-left: 42%;
     margin-top:0%;
 		
   }
@@ -629,8 +630,12 @@ td{
    display:inline;
    width: 132px;
    height: 100px;
+   margin-top: 15%;
  }
- 
+ .leftgallery .galleryimg{
+   width: 30%;
+   margin-left: 2%;
+ }
  #imageshide
  {
    display:none;
@@ -721,6 +726,18 @@ footer
 
 }
 /*----------------for smalll screens---------------------------------------------------------------------------*/
+@media (max-width: 650px)
+{
+  .leftgallery .galleryimg{
+    width: 45%;
+  }
+}
+
+
+
+
+
+
 
 @media (max-width: 350px)
 {
@@ -751,6 +768,11 @@ footer
     margin-left: 40%;
     margin-top:2rem;
 		
+  }
+
+  .leftgallery .galleryimg{
+    width: 90%;
+    height: 18%;
   }
   /*------------------3 col--end-------------------------------*/
 
@@ -910,12 +932,12 @@ footer
 
 .dark-mode .sub
 {
- background:rgb(254, 255, 255)
+ background:rgba(198, 250, 241, 0.9);
 }
 
 .dark-mode .subtext
 {
- background:rgb(254, 255, 255)
+ background:rgba(198, 250, 241, 0.9);
 }
 
 .dark-mode nav a:hover {
@@ -945,6 +967,15 @@ background: rgba(175, 243, 252, 0.6) ;
  height:40px;
  margin-left: 2%;
  font-size: 70%;
+}
+.dark-mode #i1{
+  color: #28a745;
+}
+.dark-mode #i2{
+  color: #e54d26;
+}
+.dark-mode #i3{
+  color: #007bff;
 }
 /*-------------------------------Graphic Design--------------------------------------------*/
  
