@@ -6,6 +6,31 @@
   font-family: headfont;
   src: url(HKGrotesk.otf);
 }
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+/* scrollbar start  */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 50%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fc9c95; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fc9c95; 
+}
+/* scrollbar end  */
 /*------------------3 col---start------------------------------*/
  
 .colm{
