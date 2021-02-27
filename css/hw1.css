@@ -459,6 +459,7 @@ margin-top: 10%;
  font-size: 90%;
  float:right;
  margin-left: 1%;
+ outline: none;
  border-radius: 10px;
  cursor: pointer;
  font-family: headfont;
