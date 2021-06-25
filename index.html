@@ -1,373 +1,387 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta content="width=device-width, initial-scale=1" name="viewport" />
-	<script src="catalytic.js"></script>
-	<link rel="manifest" href="./manifest.webmanifest">
-	<title>Catalytic Originals</title>
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png" /> <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png" />
-	<link rel="stylesheet" href="css/hw1.css">
-	<script src="https://kit.fontawesome.com/2ede53c4a2.js" crossorigin="anonymous"></script>
-	<!----------------CHAT BOT START --------------------------------------------------------------------------->
-<!-- Start of Async Drift Code -->
-<script>
-	"use strict";
-	
-	!function() {
-	  var t = window.driftt = window.drift = window.driftt || [];
-	  if (!t.init) {
-		if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-		t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-		t.factory = function(e) {
-		  return function() {
-			var n = Array.prototype.slice.call(arguments);
-			return n.unshift(e), t.push(n), t;
-		  };
-		}, t.methods.forEach(function(e) {
-		  t[e] = t.factory(e);
-		}), t.load = function(t) {
-		  var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-		  o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-		  var i = document.getElementsByTagName("script")[0];
-		  i.parentNode.insertBefore(o, i);
-		};
-	  }
-	}();
-	drift.SNIPPET_VERSION = '0.3.1';
-	drift.load('cx4eva5wf5ir');
-	</script>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script src="catalytic.js"></script>
+    <link rel="manifest" href="./manifest.webmanifest">
+    <title>Catalytic Originals</title>
 
-	
-	<!----------------------CHAT BOT END ----------------------------------------- End of Async Drift Code -->
-	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png" />
+    <link rel="stylesheet" href="css/hw1.css">
+    <script src="https://kit.fontawesome.com/2ede53c4a2.js" crossorigin="anonymous"></script>
+    <!----------------CHAT BOT START --------------------------------------------------------------------------->
+    <!-- Start of Async Drift Code -->
+    <script>
+        "use strict";
+
+        ! function() {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void(window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function(e) {
+                        return function() {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function(e) {
+                        t[e] = t.factory(e);
+                    }), t.load = function(t) {
+                        var e = 3e5,
+                            n = Math.ceil(new Date() / e) * e,
+                            o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
+                    };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('cx4eva5wf5ir');
+    </script>
+
+
+    <!----------------------CHAT BOT END ----------------------------------------- End of Async Drift Code -->
+
 </head>
+
 <body>
-	<div id=cato-logo>
-	<a href="#footerabout"><img src="./images/cato.png" class="loader"></a>
-	</div>
-	<div class="topnav" class="collapse show navbar-collapse" id="myTopnav">
-		<a href="javascript:void(0);" onclick="myFunction()"class="active">Menu</a>
-		<a href="./signup/index.html" id="navblue">Sign Up</a>
-		<a href="./graphic.html" id="navblue">Graphic Designs</a>
-		<a href="#home" id="navblue">About Us</a>
-		<a href="#collab" id="navblue">Collabs</a>
-		<a href="#guitar" id="navblue">Mashups</a>
-		<a href="#vlogs" id="navblue">Vlogs</a>
-		<a href="#footerabout" id="navblue">Contact Us</a>
-		<a onclick="darkmode()"  id="darknav">Dark Mode</a>
-			
-		<a href="javascript:void(0);" class="icon" onclick="myFunction();closeicon();">
-		 <i id="close1" class="fa fa-bars"></i>
-		 <script>
-			 
-function closeicon() {
+    <div id=cato-logo>
+        <a href="#footerabout"><img src="./images/cato.png" class="loader"></a>
+    </div>
+    <div class="topnav" class="collapse show navbar-collapse" id="myTopnav">
+        <a href="javascript:void(0);" onclick="myFunction()" class="active">Menu</a>
+        <a href="./signup/index.html" onclick="sound()" id="navblue">Sign Up</a>
+        <a href="./graphic.html" onclick="sound()" id="navblue">Graphic Designs</a>
+        <a href="#home" onclick="sound()" id="navblue">About Us</a>
+        <a href="#collab" onclick="sound()" id="navblue">Collabs</a>
+        <a href="#guitar" onclick="sound()" id="navblue">Mashups</a>
+        <a href="#vlogs" onclick="sound()" id="navblue">Vlogs</a>
+        <a href="#footerabout" onclick="sound()" id="navblue">Contact Us</a>
+        <a onclick="darkmode()" onclick="sound()" id="darknav">Dark Mode</a>
 
-if ( document.getElementById("close1").classList=='fa fa-bars'){
+        <a href="javascript:void(0);" class="icon" onclick="myFunction();closeicon();">
+            <i id="close1" class="fa fa-bars"></i>
+            <script>
+                function closeicon() {
 
-document.getElementById("close1").classList=('fa fa-close');
+                    if (document.getElementById("close1").classList == 'fa fa-bars') {
 
-}
-else
-{
-	document.getElementById("close1").classList=('fa fa-bars');
-}
-}
-		 </script>
-		</a>
-	  </div>
-	  
-	  <form>
-		<button onclick ="greet();return false;"class="sub">Login</button>
-		<input  type="password" class= "subtext" placeholder="Password" required>
-		<input type="text" id="name" class= "subtext" placeholder="Username" required>
-		
-	</form>
-            
-       
-	<header>
-		<br><br><br>
-		<h1>Catalytic Originals</h1>
-		<br>
-		<nav >
-			<a href="#home" class = "active">About</a>
-			<a href="./signup/index.html">Sign Up</a>
-			<a href="./graphic.html">Graphic Designs</a>
-			<a href="#collab">Collabs</a>
-			<a href="#guitar">Mashups</a>
-			<a href="#vlogs">Vlogs</a>
-			
-			
-		</nav>
-	</header>
-	<!-------------------------------3 COLOUMN-------------------------------------------------------------->
-	<div classs="3col" id="services">
-		<div class="row">
-				 <div class="colm">
-					<a href="https://www.youtube.com/playlist?list=PL91wh9vI5FwWF-9UFzgahN7HAqVdE6qKv" target="_blank"><i class="fas fa-video" id="i1"></i></a>
-					 <h3>Vlogs</h3>
-				 </div>
-				 <div class="colm" >
-					<a href="https://www.youtube.com/playlist?list=PL91wh9vI5FwWLp0xBu8FxTWdCrBkx9Sit" target="_blank"><i class="fas fa-headphones-alt" id="i2"></i></a>
-					<h3>Music</h3>
-				</div>
-				<div class="colm">
-					<a href="https://www.youtube.com/playlist?list=PL91wh9vI5FwVsNM6-2uPh3Ai_MTd0Mfsh" target="_blank"><i class="fas fa-user-graduate" id="i3"></i></a>
-					<h3>Edu</h3>
-				</div>
-				</div>
-		<hr class="my-4">
-	</div>
-	<!------------------------------------------------------------------------------------------------------>
-		<label class="switch" id="switch-mobile">
+                        document.getElementById("close1").classList = ('fa fa-close');
+
+                    } else {
+                        document.getElementById("close1").classList = ('fa fa-bars');
+                    }
+                }
+            </script>
+        </a>
+    </div>
+
+    <form>
+        <button onclick="greet();return false;" class="sub">Login</button>
+        <input type="password" class="subtext" placeholder="Password" required>
+        <input type="text" id="name" class="subtext" placeholder="Username" required>
+
+    </form>
+
+
+    <header>
+        <br><br><br>
+        <h1>Catalytic Originals</h1>
+        <br>
+        <nav>
+            <a href="#home" onclick="sound()" class="active">About</a>
+            <a href="./signup/index.html" onclick="sound()">Sign Up</a>
+            <a href="./graphic.html" onclick="sound()">Graphic Designs</a>
+            <a href="#collab" onclick="sound()">Collabs</a>
+            <a href="#guitar" onclick="sound()">Mashups</a>
+            <a href="#vlogs" onclick="sound()">Vlogs</a>
+
+
+        </nav>
+    </header>
+    <!-------------------------------3 COLOUMN-------------------------------------------------------------->
+    <div classs="3col" id="services">
+        <div class="row">
+            <div class="colm">
+                <a href="https://www.youtube.com/playlist?list=PL91wh9vI5FwWF-9UFzgahN7HAqVdE6qKv" target="_blank"><i class="fas fa-video" id="i1"></i></a>
+                <h3>Vlogs</h3>
+            </div>
+            <div class="colm">
+                <a href="https://www.youtube.com/playlist?list=PL91wh9vI5FwWLp0xBu8FxTWdCrBkx9Sit" target="_blank"><i class="fas fa-headphones-alt" id="i2"></i></a>
+                <h3>Music</h3>
+            </div>
+            <div class="colm">
+                <a href="https://www.youtube.com/playlist?list=PL91wh9vI5FwVsNM6-2uPh3Ai_MTd0Mfsh" target="_blank"><i class="fas fa-user-graduate" id="i3"></i></a>
+                <h3>Edu</h3>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <!------------------------------------------------------------------------------------------------------>
+    <label class="switch" id="switch-mobile">
 			<input type="checkbox" onclick="darkmode()">
 			<span class="slider round"></span>
 		  </label>
 
-		<main>
-			<section class= "left" id="leftg">
-			<aside class = "left">
-				
-	  <label class="switch" id="switch-web">
+    <main>
+        <section class="left" id="leftg">
+            <aside class="left">
+
+                <label class="switch" id="switch-web">
 		<input type="checkbox" onclick="darkmode()">
 		<span class="slider round"></span>
 	  </label>
-				<h2>GALLERY</h2>
-            <div class="leftgallery">
-			<a href="https://youtu.be/Yh-0be1li8A"><img src="images/lemonade.jpg" alt="The lemonade story" class="galleryimg"> </a>
-            <a href="https://youtu.be/gATl2mf94HQ"><img alt="guitar" src="images/guitar.jpg" class="galleryimg"></a>
-            <a href="https://youtu.be/zzKDajD1dCw" title="Travel Vlogs"><img src="images/srm.jpg"  alt="Travel Vlogs" class="galleryimg"></a>
-			<a href="https://youtu.be/aMF-aekoLns" title="Cover Page"><img src="images/co.jpg"  alt="Cover Page" class="galleryimg"></a>
-			<a href="https://youtu.be/ctpTFPLQ55I" title="Srm University induction"><img src="images/srm2.jpg"  alt="Srm University Induction" class="galleryimg"></a>
-			<a href="https://youtu.be/AEMugjTDoTY" title="Educational Series"><img src="images/educational.jpg"  alt="Educational Series" class="galleryimg"></a>
-            </div>
-<!--------------------------------------------------------------------------------------------------------->
-			<div id = "imageshide">
-            <a href="https://youtu.be/Yh-0be1li8A"><img src="images/lemonade.jpg" alt="The lemonade story"> </a>
+                <h2>GALLERY</h2>
+                <div class="leftgallery">
+                    <a href="https://youtu.be/Yh-0be1li8A"><img src="images/lemonade.jpg" alt="The lemonade story" class="galleryimg"> </a>
+                    <a href="https://youtu.be/gATl2mf94HQ"><img alt="guitar" src="images/guitar.jpg" class="galleryimg"></a>
+                    <a href="https://youtu.be/zzKDajD1dCw" title="Travel Vlogs"><img src="images/srm.jpg" alt="Travel Vlogs" class="galleryimg"></a>
+                    <a href="https://youtu.be/aMF-aekoLns" title="Cover Page"><img src="images/co.jpg" alt="Cover Page" class="galleryimg"></a>
+                    <a href="https://youtu.be/ctpTFPLQ55I" title="Srm University induction"><img src="images/srm2.jpg" alt="Srm University Induction" class="galleryimg"></a>
+                    <a href="https://youtu.be/AEMugjTDoTY" title="Educational Series"><img src="images/educational.jpg" alt="Educational Series" class="galleryimg"></a>
+                </div>
+                <!--------------------------------------------------------------------------------------------------------->
+                <div id="imageshide">
+                    <a href="https://youtu.be/Yh-0be1li8A"><img src="images/lemonade.jpg" alt="The lemonade story"> </a>
 
-			<a href="https://youtu.be/gATl2mf94HQ"><img alt="" src="images/guitar.jpg"></a>
-
-
-			<a href="https://youtu.be/BMhrWr6ZJRY" title="Travel Vlogs"><img src="images/srm.jpg"  alt="Travel Vlogs"></a>
-			<a href="https://youtu.be/aMF-aekoLns" title="Cover Page"><img src="images/co.jpg"  alt="Cover Page"></a>
-			<a href="https://youtu.be/ctpTFPLQ55I" title="world photography day"><img src="./css/943.jpg"  alt="photography"></a>
-			<a href="https://youtu.be/AEMugjTDoTY" title="Educational Series"><img src="images/educational.jpg"  alt="Educational Series"></a>
-			<a href="https://youtu.be/aMF-aekoLns" title="Cover Page"><img src="./css/co2.jpg"  alt="Educational Series"></a>
-			<a href="https://youtu.be/Yh-0be1li8A"><img src="images/lemonade.jpg" alt="The lemonade story" title="The lemonade story"> </a>
-			<a href="https://youtu.be/gATl2mf94HQ"><img alt="guitar" src="images/guitar.jpg"></a>
-			<a href="https://youtu.be/ctpTFPLQ55I" title="world photography day"><img src="./css/943.jpg"  alt="photography"></a>
-		</div>
-		</aside>
-			</section>
-
-			<section class = "right" id="home">
-				<h2>ABOUT</h2>
-			<p>Catalytic Originals is a creative channel/brand owned and managed by Pranjay Poddar. This channel's content includes - instrumental guitar covers, music covers, animations, SRM Chennai KTR main campus college videos, travel vlogs, and educational series for engineering students.</p>
+                    <a href="https://youtu.be/gATl2mf94HQ"><img alt="" src="images/guitar.jpg"></a>
 
 
-<p>---Do hit the subscribe button and press the bell icon on youtube for regular updates...  :)</p>
+                    <a href="https://youtu.be/BMhrWr6ZJRY" title="Travel Vlogs"><img src="images/srm.jpg" alt="Travel Vlogs"></a>
+                    <a href="https://youtu.be/aMF-aekoLns" title="Cover Page"><img src="images/co.jpg" alt="Cover Page"></a>
+                    <a href="https://youtu.be/ctpTFPLQ55I" title="world photography day"><img src="./css/943.jpg" alt="photography"></a>
+                    <a href="https://youtu.be/AEMugjTDoTY" title="Educational Series"><img src="images/educational.jpg" alt="Educational Series"></a>
+                    <a href="https://youtu.be/aMF-aekoLns" title="Cover Page"><img src="./css/co2.jpg" alt="Educational Series"></a>
+                    <a href="https://youtu.be/Yh-0be1li8A"><img src="images/lemonade.jpg" alt="The lemonade story" title="The lemonade story"> </a>
+                    <a href="https://youtu.be/gATl2mf94HQ"><img alt="guitar" src="images/guitar.jpg"></a>
+                    <a href="https://youtu.be/ctpTFPLQ55I" title="world photography day"><img src="./css/943.jpg" alt="photography"></a>
+                </div>
+            </aside>
+        </section>
 
-<p>---Share the videos to spread creativity and love... ;)</p>
-
-<p>---For Collabs contact through the links given below. </p>
-
-
-<p>**All the content in this channel/website is a product of creativity and one's own thoughts.</p>
-<p>**Plagiarism in any form is not entertained.</p>
-		    
-	</section>
-
-
-<br>
-
-
-	<!---Collab  ------------------------------------------------------------------------------------------------------------>
-<br><br><br><br><br>
-<section id = "collab" class = "right">
-	<h2>Music And Educational Series Collabs</h2>
-	<table>
-		<tr><th>Music Video Content</th>
-			<th>Links</th>
-		</tr>
-		
-			  <tr>
-							<td>The Lemonade Story Revoic - JANE JA</td>
-							<td><a href="https://youtu.be/Yh-0be1li8A"><i class="fas fa-external-link-alt"></i></a></td>
-			  </tr>
-	</table>
-	<br><br>
-	<table> 
-			  <tr><th> Education Series</th>
-			<th>Links</th>
-						 
-						 <tr>
-							<td>Dabbling in Analytic Functions | Teaser</td>
-							<td ><a href="https://youtu.be/AEMugjTDoTY"><i class="fas fa-external-link-alt"></i></a></td>
-						</tr>
-						<tr>
-							<td>Analytic Functions | Part-1</td>
-							<td><a href="https://youtu.be/5CmTpekbfFE"><i class="fas fa-external-link-alt"></i></a></td>
-						</tr>
-						<tr>
-							<td>Analytic Functions | Part-2</td>
-							<td><a href="https://youtu.be/l77rGZkBlnU"><i class="fas fa-external-link-alt"></i></a></td>
-						</tr>
-						<tr>
-							<td>Analytic Functions | Part-3</td>
-							<td><a href="https://youtu.be/TWYPjYig3FI"><i class="fas fa-external-link-alt"></i></a></td>
-						</tr>
-	</table>
-	<br><br>
-	<table>
-	<tr><th>Webarch Club</th>
-			<th>Links</th>
-		</tr>
-			  <tr>
-							<td>Virtual Farewell Webarch Club SRM</td>
-							<td><a href="https://youtu.be/xpPVVNeRUQk"><i class="fas fa-external-link-alt"></i></a></td>
-						</tr>
-		
-	</table>
-</section>
+        <section class="right" id="home">
+            <h2>ABOUT</h2>
+            <p>Catalytic Originals is a creative channel/brand owned and managed by Pranjay Poddar. This channel's content includes - instrumental guitar covers, music covers, animations, SRM Chennai KTR main campus college videos, travel vlogs, and educational
+                series for engineering students.</p>
 
 
+            <p>---Do hit the subscribe button and press the bell icon on youtube for regular updates... :)</p>
+
+            <p>---Share the videos to spread creativity and love... ;)</p>
+
+            <p>---For Collabs contact through the links given below. </p>
+
+
+            <p>**All the content in this channel/website is a product of creativity and one's own thoughts.</p>
+            <p>**Plagiarism in any form is not entertained.</p>
+
+        </section>
+
+
+        <br>
+
+
+        <!---Collab  ------------------------------------------------------------------------------------------------------------>
+        <br><br><br><br><br>
+        <section id="collab" class="right">
+            <h2>Music And Educational Series Collabs</h2>
+            <table>
+                <tr>
+                    <th>Music Video Content</th>
+                    <th>Links</th>
+                </tr>
+
+                <tr>
+                    <td>The Lemonade Story Revoic - JANE JA</td>
+                    <td><a href="https://youtu.be/Yh-0be1li8A"><i class="fas fa-external-link-alt"></i></a></td>
+                </tr>
+            </table>
+            <br><br>
+            <table>
+                <tr>
+                    <th> Education Series</th>
+                    <th>Links</th>
+
+                    <tr>
+                        <td>Dabbling in Analytic Functions | Teaser</td>
+                        <td><a href="https://youtu.be/AEMugjTDoTY"><i class="fas fa-external-link-alt"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Analytic Functions | Part-1</td>
+                        <td><a href="https://youtu.be/5CmTpekbfFE"><i class="fas fa-external-link-alt"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Analytic Functions | Part-2</td>
+                        <td><a href="https://youtu.be/l77rGZkBlnU"><i class="fas fa-external-link-alt"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Analytic Functions | Part-3</td>
+                        <td><a href="https://youtu.be/TWYPjYig3FI"><i class="fas fa-external-link-alt"></i></a></td>
+                    </tr>
+            </table>
+            <br><br>
+            <table>
+                <tr>
+                    <th>Webarch Club</th>
+                    <th>Links</th>
+                </tr>
+                <tr>
+                    <td>Virtual Farewell Webarch Club SRM</td>
+                    <td><a href="https://youtu.be/xpPVVNeRUQk"><i class="fas fa-external-link-alt"></i></a></td>
+                </tr>
+
+            </table>
+        </section>
 
 
 
-<!--------Guitar ------------------------------------------------------------------------------------------------------->
-
-<section class = "right" id="guitar">
-	<h2>Guitar Mashups And Solos</h2>
-	
-	<table>
-		<tr><th>Guitar Mashups</th>
-			<th>Links</th>
-		</tr>
-		<tr>
-							<td>Pubg Intro Guitar</td>
-							<td><a href="https://youtu.be/gATl2mf94HQ"><i class="fas fa-external-link-alt"></i></a></td>
-		 </tr>
-						<tr>
-							<td>Pirates Of The Caribbean Vs Titanic</td>
-							<td><a href="https://youtu.be/QxdrJ8tHzcE"><i class="fas fa-external-link-alt"></i></a></td>
-						</tr>
-	</table>
-	<br><br>
-	<table>
-			  <tr><th> Guitar Solos</th>
-			<th>Links</th>
-						 
-						 <tr>
-							<td>Gratitude Guitar Tabs</td>
-							<td><a href="https://youtu.be/Ljbf_lbCZ9U"><i class="fas fa-external-link-alt"></i></a></td>
-						</tr>
-						<tr>
-							<td>Jana Gana Mana</td>
-							<td><a href="https://youtu.be/inCSOCOSgXc"><i class="fas fa-external-link-alt"></i></a></td>
-						</tr>
-						<tr>
-							<td>Jingle Bells</td>
-							<td><a href="https://youtu.be/EqWUGlw9mWI"><i class="fas fa-external-link-alt"></i></a></td>
-						</tr>
-		
-		
-	</table>
-</section>
-
-<!---------Vlogs and Animations -------------------------------------------------------------------------------------------------->
-<section class = "right" id ="vlogs">
-	<h2>Vlogs</h2>
-	
-	<table>
-		
-			  <tr><th>Vlogs</th>
-			<th>Links</th>
-						 
-						 <tr>
-							<td>Travel Vlog Chennai | Vlog-1</td>
-							<td><a href="https://youtu.be/BMhrWr6ZJRY"><i class="fas fa-external-link-alt"></i></a></td>
-						</tr>
-						<tr>
-							<td>First Year Sum Up | Vlog-2</td>
-							<td><a href="https://youtu.be/zzKDajD1dCw"><i class="fas fa-external-link-alt"></i></a></td>
-						</tr>
-						<tr>
-							<td> Survey Report By First Year Students</td>
-							<td><a href="https://youtu.be/9HE0aFaFwe8"><i class="fas fa-external-link-alt"></i></a></td>
-						</tr>
-						<tr>
-							<td>Freshers' Induction Overview</td>
-							<td><a href="https://youtu.be/ctpTFPLQ55I"><i class="fas fa-external-link-alt"></i></a></td>
-						</tr>
-		
-		
-	</table>
-<br><br>
-	
-	<table>
-		
-		<tr><th>Animations</th>
-	  <th>Links</th>
-				   
-				   <tr>
-					  <td>Eyes Rolling Animation</td>
-					  <td><a href="https://youtu.be/C4p8kcAm_O0"><i class="fas fa-external-link-alt"></i></a></td>
-				  </tr>
-				  <tr>
-					  <td>Future-The Gaming Graphics</td>
-					  <td><a href="https://youtu.be/VlZ3WHtMCv0"><i class="fas fa-external-link-alt"></i></a></td>
-				  </tr>
-				  <tr>
-					  <td> Marvel Comic Intro</td>
-					  <td><a href="https://youtu.be/lAFD09VCTDY"><i class="fas fa-external-link-alt"></i></a></td>
-				  </tr>
-				  <tr>
-					<td>Microsoft Club Srm Recruitment Video</td>
-					<td><a href="https://youtu.be/3DqxXHtFPzY"><i class="fas fa-external-link-alt"></i></a></td>
-				</tr>
-				  <tr>
-					  <td>Chandrayaan-2 ISRO's Mission </td>
-					  <td><a href="https://youtu.be/sOLIfgcAm5U"><i class="fas fa-external-link-alt"></i></a></td>
-				  </tr>
-				  				  
-  
-  
-</table>
-</section>
 
 
-</main>
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="/__/firebase/8.2.10/firebase-app.js"></script>
+        <!--------Guitar ------------------------------------------------------------------------------------------------------->
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
+        <section class="right" id="guitar">
+            <h2>Guitar Mashups And Solos</h2>
+
+            <table>
+                <tr>
+                    <th>Guitar Mashups</th>
+                    <th>Links</th>
+                </tr>
+                <tr>
+                    <td>Pubg Intro Guitar</td>
+                    <td><a href="https://youtu.be/gATl2mf94HQ"><i class="fas fa-external-link-alt"></i></a></td>
+                </tr>
+                <tr>
+                    <td>Pirates Of The Caribbean Vs Titanic</td>
+                    <td><a href="https://youtu.be/QxdrJ8tHzcE"><i class="fas fa-external-link-alt"></i></a></td>
+                </tr>
+            </table>
+            <br><br>
+            <table>
+                <tr>
+                    <th> Guitar Solos</th>
+                    <th>Links</th>
+
+                    <tr>
+                        <td>Gratitude Guitar Tabs</td>
+                        <td><a href="https://youtu.be/Ljbf_lbCZ9U"><i class="fas fa-external-link-alt"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Jana Gana Mana</td>
+                        <td><a href="https://youtu.be/inCSOCOSgXc"><i class="fas fa-external-link-alt"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Jingle Bells</td>
+                        <td><a href="https://youtu.be/EqWUGlw9mWI"><i class="fas fa-external-link-alt"></i></a></td>
+                    </tr>
+
+
+            </table>
+        </section>
+
+        <!---------Vlogs and Animations -------------------------------------------------------------------------------------------------->
+        <section class="right" id="vlogs">
+            <h2>Vlogs</h2>
+
+            <table>
+
+                <tr>
+                    <th>Vlogs</th>
+                    <th>Links</th>
+
+                    <tr>
+                        <td>Travel Vlog Chennai | Vlog-1</td>
+                        <td><a href="https://youtu.be/BMhrWr6ZJRY"><i class="fas fa-external-link-alt"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>First Year Sum Up | Vlog-2</td>
+                        <td><a href="https://youtu.be/zzKDajD1dCw"><i class="fas fa-external-link-alt"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td> Survey Report By First Year Students</td>
+                        <td><a href="https://youtu.be/9HE0aFaFwe8"><i class="fas fa-external-link-alt"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Freshers' Induction Overview</td>
+                        <td><a href="https://youtu.be/ctpTFPLQ55I"><i class="fas fa-external-link-alt"></i></a></td>
+                    </tr>
+
+
+            </table>
+            <br><br>
+
+            <table>
+
+                <tr>
+                    <th>Animations</th>
+                    <th>Links</th>
+
+                    <tr>
+                        <td>Eyes Rolling Animation</td>
+                        <td><a href="https://youtu.be/C4p8kcAm_O0"><i class="fas fa-external-link-alt"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Future-The Gaming Graphics</td>
+                        <td><a href="https://youtu.be/VlZ3WHtMCv0"><i class="fas fa-external-link-alt"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td> Marvel Comic Intro</td>
+                        <td><a href="https://youtu.be/lAFD09VCTDY"><i class="fas fa-external-link-alt"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Microsoft Club Srm Recruitment Video</td>
+                        <td><a href="https://youtu.be/3DqxXHtFPzY"><i class="fas fa-external-link-alt"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Chandrayaan-2 ISRO's Mission </td>
+                        <td><a href="https://youtu.be/sOLIfgcAm5U"><i class="fas fa-external-link-alt"></i></a></td>
+                    </tr>
+
+
+
+            </table>
+        </section>
+
+
+    </main>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.2.10/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="/__/firebase/8.2.10/firebase-analytics.js"></script>
+    <script src="/__/firebase/8.2.10/firebase-analytics.js"></script>
 
-<!-- Initialize Firebase -->
-<script src="/__/firebase/init.js"></script>
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    <audio id="audioclick">
+		<source src="./click.mp3" type="audio/ogg">
+	  </audio>
 
 </body>
 
 <footer id="footerabout">
-	<section class="social">
-		<br>
-		<h2> Contact Us</h2>
-                <a href="https://twitter.com/PranjayPoddar" target="_blank" id=socialIcon><i class="fab fa-twitter"></i></a>
-                <a href="https://www.facebook.com/PRJ834/" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/catalytic_originals/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/pranjay-poddar/" target="_blank"><i class="fab fa-linkedin"></i></a>
-               <a href="https://www.behance.net/pranjaypoddar" target="_blank"><i class="fab fa-behance"></i></a>
-                <a href="https://github.com/pranjay-poddar" target="_blank"><i class="fab fa-github"></i></a>
-			  </section>
-			  <br>
-              <section class="credit">
-		<span id = "credits"></span>Made with <span id= "heart">❤</span> By <a href="https://pranjay-poddar.github.io/portfolio/index.html" id ="creditlink" style="color:aqua ;text-decoration: none;">Pranjay Poddar</a></span>
-		<h6 style="color: rgb(252, 253, 252);">© 2020 Catalytic Originals</h6>
-		</section>
-	</footer>
-</html>
+    <section class="social">
+        <br>
+        <h2> Contact Us</h2>
+        <a href="https://twitter.com/PranjayPoddar" target="_blank" id=socialIcon><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/PRJ834/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/catalytic_originals/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/pranjay-poddar/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.behance.net/pranjaypoddar" target="_blank"><i class="fab fa-behance"></i></a>
+        <a href="https://github.com/pranjay-poddar" target="_blank"><i class="fab fa-github"></i></a>
+    </section>
+    <br>
+    <section class="credit">
+        <span id="credits"></span>Made with <span id="heart">❤</span> By <a href="https://pranjay-poddar.github.io/portfolio/index.html" id="creditlink" style="color:aqua ;text-decoration: none;">Pranjay Poddar</a></span>
+        <h6 style="color: rgb(252, 253, 252);">© 2020 Catalytic Originals</h6>
+    </section>
+</footer>
 
+</html>
